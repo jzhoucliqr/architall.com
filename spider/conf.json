@@ -1,0 +1,8 @@
+{
+  "taskdb": "mongodb+taskdb://localhost:27017/taskdb",
+  "projectdb": "mongodb+projectdb://localhost:27017/projectdb",
+  "resultdb": "mongodb+resultdb://localhost:27017/resultdb",
+  "result_worker": {
+    "result_cls": "result_to_post.PostResultWorker"
+  }
+}
